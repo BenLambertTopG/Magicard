@@ -1,0 +1,22 @@
+Clean and adjust Printhead
+Use Cleaning Strip
+
+Insert Dye Film
+
+Change Printer and Printhead ID
+
+Density Card
+
+Auto Full Bleed Card
+
+Confidence Card(s)
+
+Test Print Card
+
+Add Printer to Database
+
+Reclean with Cleaning Strip
+
+Green Paint
+
+
