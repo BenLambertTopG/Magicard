@@ -1,0 +1,17 @@
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.vbproj.AssemblyReference.cache
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.vbproj.SuggestedBindingRedirects.cache
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing_Guide.Resources.resources
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.vbproj.GenerateResource.cache
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.vbproj.CoreCompileInputs.cache
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.exe.config
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.exe
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.pdb
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.xml
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.exe
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.xml
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.pdb
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing_Guide.TestTrainer.resources
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.exe.manifest
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\bin\Debug\Testing Guide.application
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.exe.manifest
+C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.application
