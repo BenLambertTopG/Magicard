@@ -1,0 +1,17 @@
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.exe.config
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.exe.manifest
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.application
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.exe
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.pdb
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Release\Testing Guide.xml
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Trainer.vbproj.AssemblyReference.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Trainer.vbproj.SuggestedBindingRedirects.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing_Guide.TestTrainer.resources
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing_Guide.Resources.resources
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Trainer.vbproj.GenerateResource.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Trainer.vbproj.CoreCompileInputs.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Guide.exe.manifest
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Guide.application
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Guide.exe
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Guide.xml
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Release\Testing Guide.pdb

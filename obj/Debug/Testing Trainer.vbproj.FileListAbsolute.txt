@@ -15,3 +15,20 @@ C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Tes
 C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.exe
 C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.xml
 C:\Users\pblam\Desktop\VB Projects\Work Testing Form\Testing Guide\obj\Debug\Testing Guide.pdb
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.exe.config
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.exe.manifest
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.application
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.exe
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.pdb
+D:\VBProjects\Magicard\TestGuide\Testing Guide\bin\Debug\Testing Guide.xml
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Trainer.vbproj.AssemblyReference.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Trainer.vbproj.SuggestedBindingRedirects.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing_Guide.TestTrainer.resources
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing_Guide.Resources.resources
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Trainer.vbproj.GenerateResource.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Trainer.vbproj.CoreCompileInputs.cache
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Guide.exe.manifest
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Guide.application
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Guide.exe
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Guide.xml
+D:\VBProjects\Magicard\TestGuide\Testing Guide\obj\Debug\Testing Guide.pdb
