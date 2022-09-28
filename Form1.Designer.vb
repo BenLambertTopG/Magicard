@@ -49,20 +49,21 @@ Partial Class TestTrainer
         Me.CBDatabase = New System.Windows.Forms.CheckBox()
         Me.CBStrip2 = New System.Windows.Forms.CheckBox()
         Me.CBPaint = New System.Windows.Forms.CheckBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.pbColour = New System.Windows.Forms.PictureBox()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Panel1.SuspendLayout()
         CType(Me.pbColour, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtTarget
         '
-        Me.txtTarget.Location = New System.Drawing.Point(57, 35)
+        Me.txtTarget.Location = New System.Drawing.Point(21, 169)
+        Me.txtTarget.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtTarget.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtTarget.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtTarget.Name = "txtTarget"
-        Me.txtTarget.Size = New System.Drawing.Size(100, 26)
+        Me.txtTarget.Size = New System.Drawing.Size(36, 20)
         Me.txtTarget.TabIndex = 4
         Me.txtTarget.Text = "0.00"
         Me.txtTarget.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -70,26 +71,33 @@ Partial Class TestTrainer
         'LabelTarget
         '
         Me.LabelTarget.AutoSize = True
-        Me.LabelTarget.Location = New System.Drawing.Point(163, 38)
+        Me.LabelTarget.Location = New System.Drawing.Point(58, 171)
+        Me.LabelTarget.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelTarget.Name = "LabelTarget"
-        Me.LabelTarget.Size = New System.Drawing.Size(55, 20)
+        Me.LabelTarget.Size = New System.Drawing.Size(38, 13)
         Me.LabelTarget.TabIndex = 1
         Me.LabelTarget.Text = "Target"
         '
         'txtDensity1
         '
-        Me.txtDensity1.Location = New System.Drawing.Point(57, 99)
+        Me.txtDensity1.Location = New System.Drawing.Point(21, 211)
+        Me.txtDensity1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDensity1.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtDensity1.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtDensity1.Name = "txtDensity1"
-        Me.txtDensity1.Size = New System.Drawing.Size(100, 26)
+        Me.txtDensity1.Size = New System.Drawing.Size(36, 20)
         Me.txtDensity1.TabIndex = 6
         Me.txtDensity1.Text = "1.00"
         Me.txtDensity1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtDensity2
         '
-        Me.txtDensity2.Location = New System.Drawing.Point(57, 131)
+        Me.txtDensity2.Location = New System.Drawing.Point(21, 231)
+        Me.txtDensity2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDensity2.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtDensity2.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtDensity2.Name = "txtDensity2"
-        Me.txtDensity2.Size = New System.Drawing.Size(100, 26)
+        Me.txtDensity2.Size = New System.Drawing.Size(36, 20)
         Me.txtDensity2.TabIndex = 7
         Me.txtDensity2.Text = "1.00"
         Me.txtDensity2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -97,26 +105,31 @@ Partial Class TestTrainer
         'LabelDensity1
         '
         Me.LabelDensity1.AutoSize = True
-        Me.LabelDensity1.Location = New System.Drawing.Point(163, 102)
+        Me.LabelDensity1.Location = New System.Drawing.Point(58, 213)
+        Me.LabelDensity1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelDensity1.Name = "LabelDensity1"
-        Me.LabelDensity1.Size = New System.Drawing.Size(75, 20)
+        Me.LabelDensity1.Size = New System.Drawing.Size(51, 13)
         Me.LabelDensity1.TabIndex = 4
         Me.LabelDensity1.Text = "Density 1"
         '
         'LabelDensity2
         '
         Me.LabelDensity2.AutoSize = True
-        Me.LabelDensity2.Location = New System.Drawing.Point(163, 134)
+        Me.LabelDensity2.Location = New System.Drawing.Point(58, 233)
+        Me.LabelDensity2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelDensity2.Name = "LabelDensity2"
-        Me.LabelDensity2.Size = New System.Drawing.Size(75, 20)
+        Me.LabelDensity2.Size = New System.Drawing.Size(51, 13)
         Me.LabelDensity2.TabIndex = 5
         Me.LabelDensity2.Text = "Density 2"
         '
         'txtDensity3
         '
-        Me.txtDensity3.Location = New System.Drawing.Point(57, 163)
+        Me.txtDensity3.Location = New System.Drawing.Point(21, 252)
+        Me.txtDensity3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDensity3.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtDensity3.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtDensity3.Name = "txtDensity3"
-        Me.txtDensity3.Size = New System.Drawing.Size(100, 26)
+        Me.txtDensity3.Size = New System.Drawing.Size(36, 20)
         Me.txtDensity3.TabIndex = 8
         Me.txtDensity3.Text = "1.00"
         Me.txtDensity3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -124,17 +137,21 @@ Partial Class TestTrainer
         'LabelDensity3
         '
         Me.LabelDensity3.AutoSize = True
-        Me.LabelDensity3.Location = New System.Drawing.Point(163, 166)
+        Me.LabelDensity3.Location = New System.Drawing.Point(58, 254)
+        Me.LabelDensity3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelDensity3.Name = "LabelDensity3"
-        Me.LabelDensity3.Size = New System.Drawing.Size(75, 20)
+        Me.LabelDensity3.Size = New System.Drawing.Size(51, 13)
         Me.LabelDensity3.TabIndex = 7
         Me.LabelDensity3.Text = "Density 3"
         '
         'txtCurrentPower
         '
-        Me.txtCurrentPower.Location = New System.Drawing.Point(57, 67)
+        Me.txtCurrentPower.Location = New System.Drawing.Point(21, 190)
+        Me.txtCurrentPower.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtCurrentPower.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtCurrentPower.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtCurrentPower.Name = "txtCurrentPower"
-        Me.txtCurrentPower.Size = New System.Drawing.Size(100, 26)
+        Me.txtCurrentPower.Size = New System.Drawing.Size(36, 20)
         Me.txtCurrentPower.TabIndex = 5
         Me.txtCurrentPower.Text = "000"
         Me.txtCurrentPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -142,62 +159,75 @@ Partial Class TestTrainer
         'LabelCurrentPower
         '
         Me.LabelCurrentPower.AutoSize = True
-        Me.LabelCurrentPower.Location = New System.Drawing.Point(163, 70)
+        Me.LabelCurrentPower.Location = New System.Drawing.Point(58, 192)
+        Me.LabelCurrentPower.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelCurrentPower.Name = "LabelCurrentPower"
-        Me.LabelCurrentPower.Size = New System.Drawing.Size(110, 20)
+        Me.LabelCurrentPower.Size = New System.Drawing.Size(74, 13)
         Me.LabelCurrentPower.TabIndex = 9
         Me.LabelCurrentPower.Text = "Current Power"
         '
         'txtCurrentDensity
         '
-        Me.txtCurrentDensity.Location = New System.Drawing.Point(57, 195)
+        Me.txtCurrentDensity.Location = New System.Drawing.Point(21, 273)
+        Me.txtCurrentDensity.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtCurrentDensity.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtCurrentDensity.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtCurrentDensity.Name = "txtCurrentDensity"
-        Me.txtCurrentDensity.Size = New System.Drawing.Size(100, 26)
+        Me.txtCurrentDensity.Size = New System.Drawing.Size(36, 20)
         Me.txtCurrentDensity.TabIndex = 9
         Me.txtCurrentDensity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'LabelCurrentDensity
         '
         Me.LabelCurrentDensity.AutoSize = True
-        Me.LabelCurrentDensity.Location = New System.Drawing.Point(163, 198)
+        Me.LabelCurrentDensity.Location = New System.Drawing.Point(58, 275)
+        Me.LabelCurrentDensity.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelCurrentDensity.Name = "LabelCurrentDensity"
-        Me.LabelCurrentDensity.Size = New System.Drawing.Size(119, 20)
+        Me.LabelCurrentDensity.Size = New System.Drawing.Size(79, 13)
         Me.LabelCurrentDensity.TabIndex = 11
         Me.LabelCurrentDensity.Text = "Current Density"
         '
         'txtRecommenedPower
         '
-        Me.txtRecommenedPower.Location = New System.Drawing.Point(57, 227)
+        Me.txtRecommenedPower.Location = New System.Drawing.Point(21, 294)
+        Me.txtRecommenedPower.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtRecommenedPower.MaximumSize = New System.Drawing.Size(36, 20)
+        Me.txtRecommenedPower.MinimumSize = New System.Drawing.Size(36, 20)
         Me.txtRecommenedPower.Name = "txtRecommenedPower"
-        Me.txtRecommenedPower.Size = New System.Drawing.Size(100, 26)
+        Me.txtRecommenedPower.Size = New System.Drawing.Size(36, 20)
         Me.txtRecommenedPower.TabIndex = 10
         Me.txtRecommenedPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'LabelRecommendedPower
         '
         Me.LabelRecommendedPower.AutoSize = True
-        Me.LabelRecommendedPower.Location = New System.Drawing.Point(163, 230)
+        Me.LabelRecommendedPower.Location = New System.Drawing.Point(58, 296)
+        Me.LabelRecommendedPower.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelRecommendedPower.Name = "LabelRecommendedPower"
-        Me.LabelRecommendedPower.Size = New System.Drawing.Size(166, 20)
+        Me.LabelRecommendedPower.Size = New System.Drawing.Size(112, 13)
         Me.LabelRecommendedPower.TabIndex = 13
         Me.LabelRecommendedPower.Text = "Recommended Power"
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(57, 269)
+        Me.btnCalculate.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.btnCalculate.Location = New System.Drawing.Point(192, 275)
+        Me.btnCalculate.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCalculate.MaximumSize = New System.Drawing.Size(79, 39)
+        Me.btnCalculate.MinimumSize = New System.Drawing.Size(79, 39)
         Me.btnCalculate.Name = "btnCalculate"
-        Me.btnCalculate.Size = New System.Drawing.Size(272, 115)
+        Me.btnCalculate.Size = New System.Drawing.Size(79, 39)
         Me.btnCalculate.TabIndex = 11
         Me.btnCalculate.Text = "Calculate"
         Me.btnCalculate.UseVisualStyleBackColor = True
         '
         'CBCleanPrinthead
         '
-        Me.CBCleanPrinthead.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBCleanPrinthead.AutoSize = True
-        Me.CBCleanPrinthead.Location = New System.Drawing.Point(111, 296)
+        Me.CBCleanPrinthead.Location = New System.Drawing.Point(21, 81)
+        Me.CBCleanPrinthead.Margin = New System.Windows.Forms.Padding(2)
         Me.CBCleanPrinthead.Name = "CBCleanPrinthead"
-        Me.CBCleanPrinthead.Size = New System.Drawing.Size(228, 24)
+        Me.CBCleanPrinthead.Size = New System.Drawing.Size(154, 17)
         Me.CBCleanPrinthead.TabIndex = 0
         Me.CBCleanPrinthead.TabStop = False
         Me.CBCleanPrinthead.Text = "Clean and Adjust Printhead"
@@ -205,11 +235,11 @@ Partial Class TestTrainer
         '
         'CBCleaningStrip
         '
-        Me.CBCleaningStrip.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBCleaningStrip.AutoSize = True
-        Me.CBCleaningStrip.Location = New System.Drawing.Point(111, 329)
+        Me.CBCleaningStrip.Location = New System.Drawing.Point(21, 103)
+        Me.CBCleaningStrip.Margin = New System.Windows.Forms.Padding(2)
         Me.CBCleaningStrip.Name = "CBCleaningStrip"
-        Me.CBCleaningStrip.Size = New System.Drawing.Size(167, 24)
+        Me.CBCleaningStrip.Size = New System.Drawing.Size(113, 17)
         Me.CBCleaningStrip.TabIndex = 1
         Me.CBCleaningStrip.TabStop = False
         Me.CBCleaningStrip.Text = "Use Cleaning Strip"
@@ -217,11 +247,11 @@ Partial Class TestTrainer
         '
         'CBDyeFilm
         '
-        Me.CBDyeFilm.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBDyeFilm.AutoSize = True
-        Me.CBDyeFilm.Location = New System.Drawing.Point(111, 362)
+        Me.CBDyeFilm.Location = New System.Drawing.Point(21, 124)
+        Me.CBDyeFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.CBDyeFilm.Name = "CBDyeFilm"
-        Me.CBDyeFilm.Size = New System.Drawing.Size(141, 24)
+        Me.CBDyeFilm.Size = New System.Drawing.Size(95, 17)
         Me.CBDyeFilm.TabIndex = 2
         Me.CBDyeFilm.TabStop = False
         Me.CBDyeFilm.Text = "Insert Dye Film"
@@ -229,11 +259,11 @@ Partial Class TestTrainer
         '
         'CBPrinterID
         '
-        Me.CBPrinterID.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBPrinterID.AutoSize = True
-        Me.CBPrinterID.Location = New System.Drawing.Point(111, 395)
+        Me.CBPrinterID.Location = New System.Drawing.Point(21, 146)
+        Me.CBPrinterID.Margin = New System.Windows.Forms.Padding(2)
         Me.CBPrinterID.Name = "CBPrinterID"
-        Me.CBPrinterID.Size = New System.Drawing.Size(265, 24)
+        Me.CBPrinterID.Size = New System.Drawing.Size(179, 17)
         Me.CBPrinterID.TabIndex = 3
         Me.CBPrinterID.TabStop = False
         Me.CBPrinterID.Text = "Change Printer and Printhead ID"
@@ -241,11 +271,11 @@ Partial Class TestTrainer
         '
         'CBDensityCard
         '
-        Me.CBDensityCard.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBDensityCard.AutoSize = True
-        Me.CBDensityCard.Location = New System.Drawing.Point(111, 864)
+        Me.CBDensityCard.Location = New System.Drawing.Point(21, 322)
+        Me.CBDensityCard.Margin = New System.Windows.Forms.Padding(2)
         Me.CBDensityCard.Name = "CBDensityCard"
-        Me.CBDensityCard.Size = New System.Drawing.Size(126, 24)
+        Me.CBDensityCard.Size = New System.Drawing.Size(86, 17)
         Me.CBDensityCard.TabIndex = 12
         Me.CBDensityCard.TabStop = False
         Me.CBDensityCard.Text = "Density Card"
@@ -253,11 +283,11 @@ Partial Class TestTrainer
         '
         'CBBleed
         '
-        Me.CBBleed.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBBleed.AutoSize = True
-        Me.CBBleed.Location = New System.Drawing.Point(111, 894)
+        Me.CBBleed.Location = New System.Drawing.Point(21, 342)
+        Me.CBBleed.Margin = New System.Windows.Forms.Padding(2)
         Me.CBBleed.Name = "CBBleed"
-        Me.CBBleed.Size = New System.Drawing.Size(181, 24)
+        Me.CBBleed.Size = New System.Drawing.Size(122, 17)
         Me.CBBleed.TabIndex = 13
         Me.CBBleed.TabStop = False
         Me.CBBleed.Text = "Auto Full Bleed Card"
@@ -265,11 +295,11 @@ Partial Class TestTrainer
         '
         'CBConfidence
         '
-        Me.CBConfidence.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBConfidence.AutoSize = True
-        Me.CBConfidence.Location = New System.Drawing.Point(111, 924)
+        Me.CBConfidence.Location = New System.Drawing.Point(21, 362)
+        Me.CBConfidence.Margin = New System.Windows.Forms.Padding(2)
         Me.CBConfidence.Name = "CBConfidence"
-        Me.CBConfidence.Size = New System.Drawing.Size(172, 24)
+        Me.CBConfidence.Size = New System.Drawing.Size(116, 17)
         Me.CBConfidence.TabIndex = 14
         Me.CBConfidence.TabStop = False
         Me.CBConfidence.Text = "Confidence Card(s)"
@@ -277,11 +307,11 @@ Partial Class TestTrainer
         '
         'CBTestPrint
         '
-        Me.CBTestPrint.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBTestPrint.AutoSize = True
-        Me.CBTestPrint.Location = New System.Drawing.Point(111, 954)
+        Me.CBTestPrint.Location = New System.Drawing.Point(21, 381)
+        Me.CBTestPrint.Margin = New System.Windows.Forms.Padding(2)
         Me.CBTestPrint.Name = "CBTestPrint"
-        Me.CBTestPrint.Size = New System.Drawing.Size(140, 24)
+        Me.CBTestPrint.Size = New System.Drawing.Size(96, 17)
         Me.CBTestPrint.TabIndex = 15
         Me.CBTestPrint.TabStop = False
         Me.CBTestPrint.Text = "Test Print Card"
@@ -289,11 +319,11 @@ Partial Class TestTrainer
         '
         'CBDatabase
         '
-        Me.CBDatabase.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBDatabase.AutoSize = True
-        Me.CBDatabase.Location = New System.Drawing.Point(111, 1014)
+        Me.CBDatabase.Location = New System.Drawing.Point(21, 420)
+        Me.CBDatabase.Margin = New System.Windows.Forms.Padding(2)
         Me.CBDatabase.Name = "CBDatabase"
-        Me.CBDatabase.Size = New System.Drawing.Size(324, 24)
+        Me.CBDatabase.Size = New System.Drawing.Size(218, 17)
         Me.CBDatabase.TabIndex = 17
         Me.CBDatabase.TabStop = False
         Me.CBDatabase.Text = "Add Printer to Database and Scan Cards"
@@ -301,11 +331,11 @@ Partial Class TestTrainer
         '
         'CBStrip2
         '
-        Me.CBStrip2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBStrip2.AutoSize = True
-        Me.CBStrip2.Location = New System.Drawing.Point(111, 984)
+        Me.CBStrip2.Location = New System.Drawing.Point(21, 400)
+        Me.CBStrip2.Margin = New System.Windows.Forms.Padding(2)
         Me.CBStrip2.Name = "CBStrip2"
-        Me.CBStrip2.Size = New System.Drawing.Size(229, 24)
+        Me.CBStrip2.Size = New System.Drawing.Size(156, 17)
         Me.CBStrip2.TabIndex = 16
         Me.CBStrip2.TabStop = False
         Me.CBStrip2.Text = "Reclean with Cleaning Strip"
@@ -313,95 +343,96 @@ Partial Class TestTrainer
         '
         'CBPaint
         '
-        Me.CBPaint.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.CBPaint.AutoSize = True
-        Me.CBPaint.Location = New System.Drawing.Point(111, 1044)
+        Me.CBPaint.Location = New System.Drawing.Point(21, 439)
+        Me.CBPaint.Margin = New System.Windows.Forms.Padding(2)
         Me.CBPaint.Name = "CBPaint"
-        Me.CBPaint.Size = New System.Drawing.Size(120, 24)
+        Me.CBPaint.Size = New System.Drawing.Size(82, 17)
         Me.CBPaint.TabIndex = 18
         Me.CBPaint.TabStop = False
         Me.CBPaint.Text = "Green Paint"
         Me.CBPaint.UseVisualStyleBackColor = True
         '
-        'Panel1
-        '
-        Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.Controls.Add(Me.pbColour)
-        Me.Panel1.Controls.Add(Me.btnCalculate)
-        Me.Panel1.Controls.Add(Me.LabelRecommendedPower)
-        Me.Panel1.Controls.Add(Me.txtRecommenedPower)
-        Me.Panel1.Controls.Add(Me.LabelCurrentDensity)
-        Me.Panel1.Controls.Add(Me.txtCurrentDensity)
-        Me.Panel1.Controls.Add(Me.LabelCurrentPower)
-        Me.Panel1.Controls.Add(Me.txtCurrentPower)
-        Me.Panel1.Controls.Add(Me.LabelDensity3)
-        Me.Panel1.Controls.Add(Me.txtDensity3)
-        Me.Panel1.Controls.Add(Me.LabelDensity2)
-        Me.Panel1.Controls.Add(Me.LabelDensity1)
-        Me.Panel1.Controls.Add(Me.txtDensity2)
-        Me.Panel1.Controls.Add(Me.txtDensity1)
-        Me.Panel1.Controls.Add(Me.LabelTarget)
-        Me.Panel1.Controls.Add(Me.txtTarget)
-        Me.Panel1.Location = New System.Drawing.Point(50, 437)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(455, 402)
-        Me.Panel1.TabIndex = 37
-        '
         'pbColour
         '
         Me.pbColour.BackColor = System.Drawing.Color.Red
-        Me.pbColour.Location = New System.Drawing.Point(345, 290)
+        Me.pbColour.Location = New System.Drawing.Point(275, 275)
+        Me.pbColour.Margin = New System.Windows.Forms.Padding(2)
+        Me.pbColour.MaximumSize = New System.Drawing.Size(36, 39)
+        Me.pbColour.MinimumSize = New System.Drawing.Size(36, 39)
         Me.pbColour.Name = "pbColour"
-        Me.pbColour.Size = New System.Drawing.Size(72, 79)
+        Me.pbColour.Size = New System.Drawing.Size(36, 39)
         Me.pbColour.TabIndex = 15
         Me.pbColour.TabStop = False
         '
         'btnClear
         '
-        Me.btnClear.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.btnClear.Location = New System.Drawing.Point(111, 1085)
+        Me.btnClear.AutoSize = True
+        Me.btnClear.Location = New System.Drawing.Point(61, 466)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnClear.MaximumSize = New System.Drawing.Size(204, 27)
+        Me.btnClear.MinimumSize = New System.Drawing.Size(204, 27)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(218, 64)
+        Me.btnClear.Size = New System.Drawing.Size(204, 27)
         Me.btnClear.TabIndex = 19
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(50, 24)
+        Me.PictureBox1.Location = New System.Drawing.Point(114, 11)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.MaximumSize = New System.Drawing.Size(111, 56)
+        Me.PictureBox1.MinimumSize = New System.Drawing.Size(111, 56)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(455, 224)
+        Me.PictureBox1.Size = New System.Drawing.Size(111, 56)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 39
         Me.PictureBox1.TabStop = False
         '
         'TestTrainer
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(556, 1203)
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ClientSize = New System.Drawing.Size(333, 504)
+        Me.Controls.Add(Me.pbColour)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnCalculate)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.LabelRecommendedPower)
+        Me.Controls.Add(Me.txtRecommenedPower)
         Me.Controls.Add(Me.CBPaint)
+        Me.Controls.Add(Me.LabelCurrentDensity)
         Me.Controls.Add(Me.CBStrip2)
+        Me.Controls.Add(Me.txtCurrentDensity)
         Me.Controls.Add(Me.CBDatabase)
+        Me.Controls.Add(Me.LabelCurrentPower)
         Me.Controls.Add(Me.CBTestPrint)
+        Me.Controls.Add(Me.txtCurrentPower)
         Me.Controls.Add(Me.CBConfidence)
+        Me.Controls.Add(Me.LabelDensity3)
         Me.Controls.Add(Me.CBBleed)
+        Me.Controls.Add(Me.txtDensity3)
         Me.Controls.Add(Me.CBDensityCard)
+        Me.Controls.Add(Me.LabelDensity2)
         Me.Controls.Add(Me.CBPrinterID)
+        Me.Controls.Add(Me.LabelDensity1)
         Me.Controls.Add(Me.CBDyeFilm)
+        Me.Controls.Add(Me.txtDensity2)
         Me.Controls.Add(Me.CBCleaningStrip)
+        Me.Controls.Add(Me.txtDensity1)
         Me.Controls.Add(Me.CBCleanPrinthead)
+        Me.Controls.Add(Me.LabelTarget)
+        Me.Controls.Add(Me.txtTarget)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "TestTrainer"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "Test Trainer"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         CType(Me.pbColour, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -435,7 +466,6 @@ Partial Class TestTrainer
     Friend WithEvents CBDatabase As CheckBox
     Friend WithEvents CBStrip2 As CheckBox
     Friend WithEvents CBPaint As CheckBox
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents btnClear As Button
     Friend WithEvents pbColour As PictureBox
     Friend WithEvents PictureBox1 As PictureBox

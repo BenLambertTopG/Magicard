@@ -13,7 +13,7 @@
         Dim Density3 As Decimal
         Dim TotalDensity As Decimal
         Dim CurrentDensity As Decimal
-        Dim DensityDiff As Decimal
+        Dim DensityDiff As Double
         Dim DensityComp As Decimal
         Dim RecommendedPower As Integer
 
@@ -42,10 +42,11 @@
 
         txtCurrentDensity.Text = Math.Round(Val(txtCurrentDensity.Text), 2)
 
+        MsgBox(DensityDiff)
 
         'Code to change backgorund colour of Box if density is in range
-        If (DensityDiff <= 0.05) Then pbColour.BackColor = Color.Green
-        If (DensityDiff > 0.05) Then pbColour.BackColor = Color.Red
+        If (DensityDiff < 0.054) Then pbColour.BackColor = Color.Green
+        If (DensityDiff > 0.055) Then pbColour.BackColor = Color.Red
         If (DensityDiff < 0.00) Then pbColour.BackColor = Color.Red
 
 
@@ -53,9 +54,70 @@
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
 
+        Dim BoxChecker As Integer
 
-        'Code to clear checkboxes
-        CBCleanPrinthead.Checked = False
+        'If check box is checked it add to the Integer
+
+        If CBCleanPrinthead.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBBleed.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBCleaningStrip.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBDyeFilm.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBPrinterID.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBDensityCard.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBConfidence.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBTestPrint.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBDatabase.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBStrip2.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+        If CBPaint.Checked = True Then
+            BoxChecker = BoxChecker + 1
+        End If
+
+
+
+        'If the Boxchecker total is less than 11
+
+        If BoxChecker < 11 Then
+            MsgBox("Not all Boxes are checked")
+        End If
+
+
+
+        'If the Boxchecker is equal to or greater than 11
+
+        If BoxChecker >= 11 Then
+
+            'Code to clear checkboxes
+            CBCleanPrinthead.Checked = False
         CBBleed.Checked = False
         CBCleaningStrip.Checked = False
         CBDyeFilm.Checked = False
@@ -75,8 +137,10 @@
         CBPaint.Checked = False
 
 
-        'Returns the Color Square back to Red
-        pbColour.BackColor = Color.Red
+            'Returns the Color Square back to Red
+            pbColour.BackColor = Color.Red
+
+        End If
 
 
     End Sub
@@ -142,7 +206,4 @@
 
     End Sub
 
-    Private Sub TestTrainer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
