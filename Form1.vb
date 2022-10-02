@@ -1,11 +1,8 @@
 ﻿Public Class TestTrainer
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles LabelDensity2.Click
-
-    End Sub
 
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click 'Density Form Code
 
-
+        'Data Storeage
         Dim Target As Decimal
         Dim CurrentPower As Integer
         Dim Density1 As Decimal
@@ -38,15 +35,20 @@
         txtRecommenedPower.Text = RecommendedPower
 
 
-        'Rounding Current Desnity to two decimals MAX
-
+        'Rounding Current Desnity to two decimals for user to understand and read faster
         txtCurrentDensity.Text = Math.Round(Val(txtCurrentDensity.Text), 2)
 
-        MsgBox(DensityDiff)
+
+        'Rounds Density Diff for more accurate results
+        DensityDiff = Math.Round(Val(DensityDiff), 2)
+
+
+        'MsgBox(DensityDiff) 'disable as comment to display Density Diff for debugging
+
 
         'Code to change backgorund colour of Box if density is in range
-        If (DensityDiff < 0.054) Then pbColour.BackColor = Color.Green
-        If (DensityDiff > 0.055) Then pbColour.BackColor = Color.Red
+        If (DensityDiff <= 0.05) Then pbColour.BackColor = Color.Green
+        If (DensityDiff >= 0.06) Then pbColour.BackColor = Color.Red
         If (DensityDiff < 0.00) Then pbColour.BackColor = Color.Red
 
 
